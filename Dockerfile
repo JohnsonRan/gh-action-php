@@ -11,5 +11,4 @@ LABEL com.github.actions.icon="globe"
 LABEL com.github.actions.color="purple"
 
 RUN apk update && \
-      apk add php7-fpm && \
-      php=`php7`
+      apk add php7-fpm
